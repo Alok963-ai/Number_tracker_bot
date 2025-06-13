@@ -12,7 +12,7 @@ bot = Client("number_tracker_bot", api_id=API_ID, api_hash=API_HASH, bot_token=B
 
 @bot.on_message(filters.command("start"))
 async def start(_, message: Message):
-    await message.reply_text("👋 Welcome to the 📞 Number Tracker Bot!)
+    await message.reply_text("👋 Welcome to the 📞 Number Tracker Bot!")
 
 Send any phone number in international format (e.g. +919876543210) to get details.")
 

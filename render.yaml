@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: number-tracker-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python telegram_number_tracker_bot.py"

@@ -4,9 +4,9 @@ import phonenumbers
 from phonenumbers import geocoder, carrier
 import os
 
-API_ID = int(os.environ.get("API_ID", 123456))  # Replace with your API_ID
-API_HASH = os.environ.get("API_HASH", "your_api_hash")  # Replace with your API_HASH
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")  # Replace with your BOT_TOKEN
+API_ID = int(os.environ.get("API_ID", 28460032))  # Replace with your API_ID
+API_HASH = os.environ.get("API_HASH", "1457c3ba64719a1e442aae67217b67c2")  # Replace with your API_HASH
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8150025209:AAESjp-Eg6M59T_rvIbnx1RRrbn77la-9bU")  # Replace with your BOT_TOKEN
 
 bot = Client("number_tracker_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 

@@ -5,8 +5,8 @@ from phonenumbers import geocoder, carrier
 import os
 
 # Environment Variables से API Details लेना
-API_ID = int(os.environ.get("API_ID", 28460032))  # अपनी API_ID डालें
-API_HASH = os.environ.get("API_HASH", "1457c3ba64719a1e442aae67217b67c2")  # अपनी API_HASH डालें
+API_ID = int(os.environ.get("API_ID", "26572696"))  # अपनी API_ID डालें
+API_HASH = os.environ.get("API_HASH", "67a8947a3e1b15f9ef9684286baa34cb")  # अपनी API_HASH डालें
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8150025209:AAESjp-Eg6M59T_rvIbnx1RRrbn77la-9bU")  # अपना Bot Token डालें
 
 # Pyrogram Client बनाना
